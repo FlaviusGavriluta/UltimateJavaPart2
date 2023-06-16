@@ -4,10 +4,13 @@ import static java.lang.System.*;
 
 public class Main {
     public static void main(String[] args) {
-        out.println("Hello World!");
+        var textBox1 = new TextBox();
+        textBox1.setText("Box 1");
+        out.println(textBox1.text);
 
-        for (int i = 1; i <= 5; i++) {
-            out.println("Hello World! " + i);
-        }
+        var textBox2 = new TextBox();
+        textBox2.setText("Box 2");
+        out.println(textBox2.text.toUpperCase());
+
     }
 }
