@@ -12,5 +12,8 @@ public class Main {
         textBox2.setText("Box 2");
         out.println(textBox2.text.toUpperCase());
 
+        var textBox3 = textBox2;
+        textBox3.setText("Box 3");
+        out.println(textBox2.text);
     }
 }
