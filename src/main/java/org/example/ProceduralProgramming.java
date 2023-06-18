@@ -8,15 +8,7 @@ public class ProceduralProgramming {
         int extraHours = 10;
         int hourlyRate = 20;
 
-        int wage = calculateWage(baseSalary, extraHours, hourlyRate);
+        int wage = Calculate.calculateWage(baseSalary, extraHours, hourlyRate);
         out.println(wage);
-    }
-
-    public static int calculateWage(
-            int baseSalary,
-            int extraHours,
-            int hourlyRate
-    ) {
-        return baseSalary + (extraHours * hourlyRate);
     }
 }
