@@ -9,6 +9,7 @@ public class ProceduralProgramming {
         employee.setHourlyRate(20);
         int wage = employee.calculateWage(10);
         out.println(wage);
-        employee.
+        var browser = new Browser();
+        browser.navigate("http://www.google.com");
     }
 }
