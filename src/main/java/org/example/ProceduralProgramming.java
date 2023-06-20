@@ -9,5 +9,6 @@ public class ProceduralProgramming {
         employee.setHourlyRate(20);
         int wage = employee.calculateWage(10);
         out.println(wage);
+        employee.
     }
 }
