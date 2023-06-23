@@ -1,4 +1,4 @@
-package org.example;
+package org.example.Section2Classes;
 
 public class Employee {
     private int baseSalary;

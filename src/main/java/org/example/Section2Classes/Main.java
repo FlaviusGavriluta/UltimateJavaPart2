@@ -1,8 +1,8 @@
-package org.example;
+package org.example.Section2Classes;
 
 import static java.lang.System.*;
 
-public class ProceduralProgramming {
+public class Main {
     public static void main(String[] args) {
 //        new Employee(70_000);
         var employee = new Employee(

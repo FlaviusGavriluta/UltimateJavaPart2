@@ -1,8 +1,10 @@
-package org.example;
+package org.example.Section2Classes;
+
+import org.example.Section2Classes.TextBox;
 
 import static java.lang.System.*;
 
-public class Main {
+public class Classes {
     public static void main(String[] args) {
         var textBox1 = new TextBox();
         textBox1.setText("Box 1");

@@ -1,6 +1,4 @@
-package org.example;
-
-import static java.lang.System.*;
+package org.example.Section2Classes;
 
 public class TextBox {
     public String text = ""; // field
