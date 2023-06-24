@@ -16,10 +16,8 @@ public class MortgageReport {
         out.println();
         out.println("PAYMENT SCHEDULE");
         out.println("----------------");
-        for (short month = 1; month <= calculator.getYears() * MortgageCalculator.MONTHS_IN_YEAR; month++) {
-            double balance = calculator.calculateBalance(month);
+        for (double balance : calculator.getRemainingBalances())
             out.println(NumberFormat.getCurrencyInstance().format(balance));
-        }
     }
 
     public void printMortgage() {
