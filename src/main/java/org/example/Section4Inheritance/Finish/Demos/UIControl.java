@@ -3,14 +3,10 @@ package org.example.Section4Inheritance.Finish.Demos;
 public class UIControl {
     boolean isEnabled = true;
 
-//  public UIControl(boolean isEnabled) {
-
-    public UIControl(boolean isEnabled){
+    public UIControl(boolean isEnabled) {
         this.isEnabled = isEnabled;
         System.out.println("UIControl");
     }
-//    this.isEnabled = isEnabled;
-//  }
 
     //public abstract void render();
     public void enable() {

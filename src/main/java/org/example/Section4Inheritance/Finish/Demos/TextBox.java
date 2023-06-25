@@ -2,6 +2,7 @@ package org.example.Section4Inheritance.Finish.Demos;
 
 public class TextBox extends UIControl {
     private String text = "";
+
     public TextBox() {
         super(true);
         System.out.println("TextBox");
@@ -16,11 +17,7 @@ public class TextBox extends UIControl {
     public String toString() {
         return text;
     }
-//
-//  @Override
-//  public String toString() {
-//    return text;
-//  }
+
     public void setText(String text) {
         this.text = text;
     }
