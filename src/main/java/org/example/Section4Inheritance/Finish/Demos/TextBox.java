@@ -12,6 +12,10 @@ public class TextBox extends UIControl {
 //  public void render() {
 //    System.out.println("Render TextBox");
 //  }
+    @Override
+    public String toString() {
+        return text;
+    }
 //
 //  @Override
 //  public String toString() {
