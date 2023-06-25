@@ -1,7 +1,7 @@
 package org.example.Section4Inheritance.Finish.Demos;
 
 public class UIControl {
-    private boolean isEnabled = true;
+    boolean isEnabled = true;
 
 //  public UIControl(boolean isEnabled) {
 
