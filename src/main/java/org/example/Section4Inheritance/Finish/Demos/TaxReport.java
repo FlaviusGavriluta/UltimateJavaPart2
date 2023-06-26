@@ -1,12 +1,15 @@
 package org.example.Section4Inheritance.Finish.Demos;
 
 import static java.lang.System.*;
+
 public class TaxReport {
-    private TaxCalculator2018 calculator;
-    public TaxReport(){
-        calculator=new TaxCalculator2018(100_000);
+    private TaxCalculator calculator;
+
+    public TaxReport(TaxCalculator calculator) {
+        this.calculator = calculator;
     }
-    public void  show(){
+
+    public void show() {
         var tax = calculator.calculateTax();
         out.println(tax);
     }
