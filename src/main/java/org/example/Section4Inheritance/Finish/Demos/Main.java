@@ -9,5 +9,8 @@ public class Main {
         var point2 = new Point(1, 2);
         out.println(point1.hashCode());
         out.println(point2.hashCode());
+
+        UIControl[] controls = {new TextBox(), new CheckBox()};
+        for (var control : controls) control.render();
     }
 }
