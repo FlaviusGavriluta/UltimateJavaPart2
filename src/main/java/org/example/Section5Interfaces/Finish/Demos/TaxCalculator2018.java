@@ -1,6 +1,7 @@
 package Finish.Demos;
 
-public class TaxCalculator2018 extends AbstractTaxCalculator {
+public class TaxCalculator2018
+        extends AbstractTaxCalculator {
     private double taxableIncome;
 
     public TaxCalculator2018(double taxableIncome) {
@@ -9,6 +10,7 @@ public class TaxCalculator2018 extends AbstractTaxCalculator {
 
     @Override
     public double calculateTax() {
+        //getTaxabaleIncome();
         return taxableIncome * 0.3;
     }
 }
